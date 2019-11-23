@@ -14,4 +14,7 @@ docker run --name mariadbtest -p 3306:3306 -e MYSQL_ROOT_PASSWORD=mypass -d mari
 ```
 
 ## Tạo database demo
+Kết nối đến MariaDB, tạo DB `demo`
+```
 CREATE DATABASE `demo` DEFAULT CHARACTER SET utf8;
+```
